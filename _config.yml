@@ -43,8 +43,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "你的名字" # 你的名字
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      author: "Feiht" # 你的名字
+      header-img: "http://pic.90sjimg.com/back_pic/u/00/00/95/36/55e6b4bfdf3a7.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
