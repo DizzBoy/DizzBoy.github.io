@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DizzBoy.github.io.iml" filepath="$PROJECT_DIR$/DizzBoy.github.io.iml" />
+    </modules>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://java.sun.com/jsp/jstl/core" location="$PROJECT_DIR$/../../lib/tld/c.tld" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+</project>
