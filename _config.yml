@@ -43,7 +43,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Unknown" # 你的名字
+      author: "DizzBoy" # 你的名字
       header-img: "http://wx4.sinaimg.cn/mw690/006WKNnMgy1ftr1z10t45j31hc0u04qp.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
