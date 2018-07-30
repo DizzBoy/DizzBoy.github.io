@@ -1,11 +1,10 @@
 ---
 layout: page
 title: "About"
-description: "你的博客描述 " 
-header-img: "https://attach.bbs.miui.com/forum/201406/07/100111sbpf1apox44hbowa.jpg"
+description: "" 
 ---
 
-这一页填写你的自我介绍。
+这是一个专为自我提升而存在的小站,同时也会记录DB生活中的点点滴滴~
 
 
 
