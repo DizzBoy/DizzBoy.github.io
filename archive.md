@@ -5,14 +5,14 @@ description: "文章归档"
 ---
 
 
-<ul class="listing">
+<ul class="listing fa-ul">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
+    <li class="listing-seperator fa-li fa fa-minus-square">{{ y }}</li>
   {% endif %}
-  <li class="listing-item">
+  <li class="listing-item fa-li fa fa-circle-o">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
