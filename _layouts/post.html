@@ -58,7 +58,23 @@ layout: default
         </div>
     </div>
 </article>
+<!--Valine-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
+<!--Valine评论系统-->
+<div id="vcomments"></div>
+<script>
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'HgH7Tgu1DxAYWu8IIv9amxfa-gzGzoHsz',
+        appKey: '4ljbQfCB3iURICt5X1prLQYm',
+        notify:false,
+        verify:false,
+        avatar:'mm',
+        placeholder: '快来给我留言吧~'
+    })
+</script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
