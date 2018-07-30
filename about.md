@@ -1,10 +1,16 @@
 ---
 layout: page
-title: "About"
-description: "" 
+title: "Logs"
+description: "\"我\"的成长日记" 
 ---
 
-这是一个专为自我提升而存在的小站,同时也记录着Developer生活中的点点滴滴,欢迎来访~
+<ul class="listing fa-ul">
+<li class="listing-item">
+<i class="fa-li fa fa-circle"></i>
+<time datetime="{{ post.date | date:"%Y-%m-%d" }}">2018-7-29</time>&nbsp;&nbsp;&nbsp;&nbsp;
+完成网站主体搭建,基于Jekyll,并投送第一篇文章.
+    </li>
+</ul>
 
 
 
