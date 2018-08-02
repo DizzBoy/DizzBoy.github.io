@@ -61,8 +61,8 @@ layout: default
         </div>
         <!--Gitment-->
         <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="/css/default.css">
+<script src="/js/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
     id: '{{page.title | replace: "'", "" | replace: '"', ''}}',
@@ -70,8 +70,8 @@ var gitment = new Gitment({
     repo: 'gitment',
     oauth: {
         client_id: '7cbb75422395ec6cb38c',
-        client_secret: 'aa818c605337d4329baa1a12dc0fe98991915a4a',
-    },
+        client_secret: 'aa818c605337d4329baa1a12dc0fe98991915a4a'
+    }
 });
 gitment.render('gitmentContainer');
 </script>
