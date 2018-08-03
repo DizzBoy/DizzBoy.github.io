@@ -3375,8 +3375,7 @@ var Gitment = function () {
 
     var user = {};
     try {
-      //var userInfo = localStorage.getItem(_constants.LS_USER_KEY);
-        var userInfo={"login":"d12260y","id":42019515,"node_id":"MDQ6VXNlcjQyMDE5NTE1","avatar_url":"https://avatars0.githubusercontent.com/u/42019515?v=4","gravatar_id":"","url":"https://api.github.com/users/d12260y","html_url":"https://github.com/d12260y","followers_url":"https://api.github.com/users/d12260y/followers","following_url":"https://api.github.com/users/d12260y/following{/other_user}","gists_url":"https://api.github.com/users/d12260y/gists{/gist_id}","starred_url":"https://api.github.com/users/d12260y/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/d12260y/subscriptions","organizations_url":"https://api.github.com/users/d12260y/orgs","repos_url":"https://api.github.com/users/d12260y/repos","events_url":"https://api.github.com/users/d12260y/events{/privacy}","received_events_url":"https://api.github.com/users/d12260y/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":0,"public_gists":0,"followers":0,"following":0,"created_at":"2018-08-02T03:34:00Z","updated_at":"2018-08-02T14:22:16Z"};
+      var userInfo = localStorage.getItem(_constants.LS_USER_KEY);
       if (this.accessToken && userInfo) {
         Object.assign(user, JSON.parse(userInfo), {
           fromCache: true
