@@ -57,9 +57,9 @@ Enter new UNIX password:
 ```
 
 这里额外要说一下坑过我的一个小细节 T_T~
->Linux下创建用户时会用到useradd和adduser这两个命令，他们的区别如下：   
-　　1.使用useradd时，如果后面不添加任何参数选项，例如：#sudo useradd   test创建出来的用户将是默认“三无”用户：一无Home Directory，二无密码，三无系统Shell。   
-　　2.使用adduser时，创建用户的过程更像是一种人机对话，系统会提示你输入各种信息，然后会根据这些信息帮你创建新用户。  
+>Linux下创建用户时会用到useradd和adduser这两个命令，他们的区别如下：  
+1.使用useradd时，如果后面不添加任何参数选项，例如：#sudo useradd   test创建出来的用户将是默认“三无”用户：一无Home Directory，二无密码，三无系统Shell。   
+2.使用adduser时，创建用户的过程更像是一种人机对话，系统会提示你输入各种信息，然后会根据这些信息帮你创建新用户。  
 
 使用useradd**默认是不会创建Home文件夹**的。博主年少无知,第一次创建用户却发现自己啥都没有,是个"黑户",所以在不了解参数的情况下还是使用adduser吧~
 
@@ -249,13 +249,13 @@ chown git:git -R $DEPLOY_PATH
 #!/bin/sh
 DEPLOY_PATH=/home/git/test.git
 
-git archive --format zip --output /path/to/file.zip master # 将 master 以zip格式打包到指定文件（裸仓库中执行）
-mv /path/to/file.zip $DEPLOY_PATH #将打包好的剪切到web目录
-unset GIT_DIR
-cd $DEPLOY_PATH
-unzip -o file.zip #解压覆盖
-rm -rf file.zip #删除
-chown git:git -R $DEPLOY_PATH
+git archive --format zip --output /path/to/file.zip master # 将 master 以zip格式打包到指定文件（裸仓库中执行）  
+mv /path/to/file.zip $DEPLOY_PATH #将打包好的剪切到web目录   
+unset GIT_DIR  
+cd $DEPLOY_PATH  
+unzip -o file.zip #解压覆盖  
+rm -rf file.zip #删除  
+chown git:git -R $DEPLOY_PATH  
 ```
 注意：要给钩子脚本执行的权限
 
