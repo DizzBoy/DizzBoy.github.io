@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="update 404 page&#10;add local gitment js file">
+    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="add a new blog">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-29-useMBG.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-29-useMBG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-30-lazyload.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-07-30-lazyload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="12" />
+          <entry key="html" value="13" />
           <entry key="iws" value="1" />
           <entry key="js" value="5" />
           <entry key="md" value="4" />
@@ -42,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="12" />
+          <entry key="HTML" value="13" />
           <entry key="IDEA_WORKSPACE" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="4" />
@@ -52,19 +51,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="51" />
+          <entry key="html" value="52" />
           <entry key="js" value="19" />
-          <entry key="md" value="44" />
-          <entry key="txt" value="44" />
+          <entry key="md" value="60" />
+          <entry key="txt" value="62" />
           <entry key="yml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="51" />
+          <entry key="HTML" value="52" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="44" />
-          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Markdown" value="60" />
+          <entry key="PLAIN_TEXT" value="62" />
           <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
@@ -85,20 +84,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-30-lazyload.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <first_editor relative-caret-position="189">
+                <caret line="178" column="8" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -121,7 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clean</find>
       <find>标签</find>
       <find>tab</find>
       <find>collaps</find>
@@ -151,6 +137,7 @@
       <find>post</find>
       <find>imsun</find>
       <find>https://gh-oauth.imsun.net/?code=d351a99c7913fc5da12dcf890545248987467a02&amp;client_id=7cbb75422395ec6cb38c&amp;client_secret=aa818c605337d4329baa1a12dc0fe98991915a4a</find>
+      <find>Tag</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,11 +164,11 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/js/gitment.browser.js" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-07-30-lazyload.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-29-useMBG.md" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" />
       </list>
     </option>
@@ -370,7 +357,8 @@
     <MESSAGE value="~" />
     <MESSAGE value="``" />
     <MESSAGE value="update 404 page&#10;add local gitment js file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 404 page&#10;add local gitment js file" />
+    <MESSAGE value="add a new blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a new blog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/jquery.js" />
@@ -599,20 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gitment.browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="3369" column="18" selection-start-line="3369" selection-start-column="18" selection-end-line="3369" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -630,6 +604,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gitment.browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="3369" column="18" selection-start-line="3369" selection-start-column="18" selection-end-line="3369" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-30-lazyload.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -643,8 +631,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <first_editor relative-caret-position="189">
+            <caret line="178" column="8" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
