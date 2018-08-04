@@ -1,6 +1,6 @@
 # Site settings
 title: DizzBoy的小站~ # 你的博客名字，可以定义修订
-header-img: "http://wx2.sinaimg.cn/mw690/006WKNnMgy1ftr21biu21j31hc0u01j0.jpg"
+header-img: "http://wx2.sinaimg.cn/large/006WKNnMgy1ftr21biu21j31hc0u01j0.jpg"
 tagline: "cn"  
 description: "一个蓝星人的博客"  # 一句话描述你的博客
 baseurl: ""
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "DizzBoy" # 你的名字
-      header-img: "http://wx4.sinaimg.cn/mw690/006WKNnMgy1ftr1z10t45j31hc0u04qp.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "http://wx4.sinaimg.cn/large/006WKNnMgy1ftr1z10t45j31hc0u04qp.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
