@@ -10,14 +10,7 @@ description: 文章金句。
 >最近在维护博客的时候一直被Github蛋疼的提交与部署速度(符合国情)困扰。索性在本地搭建一个版本,这样就能在不妨碍网站正常运作的情况下肆意调戏了,可随后发现博客的框架在Windows上不！支！持！虽然一些Windows用户发掘了一些运行方案，但第一时间想到的还是我的Ubuntu啊~ 
 
 #### 博客生产流程
-```
-graph LR
-Linux仓库-->Windows仓库
-Windows仓库-->Windows-IDEA编辑调试
-Windows-IDEA编辑调试-->GitHub
-Linux仓库-->部署Linux本地网站
-部署Linux本地网站-->Windows-IDEA编辑调试
-```
+![图片好像...不见了!](http://wx2.sinaimg.cn/mw690/006WKNnMgy1ftxzk6rq10j30j304zwei.jpg)
 ##### 而负责管理各个版本的角色，就是今天我们要讲的Git啦。
 
 >Git是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。<br><br>
