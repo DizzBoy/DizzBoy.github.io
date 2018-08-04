@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="add a new blog">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +34,7 @@
           <entry key="js" value="5" />
           <entry key="md" value="4" />
           <entry key="ts" value="5" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,14 +45,14 @@
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="4" />
           <entry key="TypeScript" value="5" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="52" />
           <entry key="js" value="19" />
-          <entry key="md" value="68" />
+          <entry key="md" value="98" />
           <entry key="txt" value="62" />
           <entry key="yml" value="28" />
         </counts>
@@ -60,7 +61,7 @@
         <counts>
           <entry key="HTML" value="52" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="68" />
+          <entry key="Markdown" value="98" />
           <entry key="PLAIN_TEXT" value="62" />
           <entry key="YAML" value="28" />
         </counts>
@@ -82,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="269">
-                <caret line="236" column="3" lean-forward="true" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
+              <first_editor relative-caret-position="320">
+                <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -163,10 +164,10 @@
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/js/gitment.browser.js" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-07-30-lazyload.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-29-useMBG.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" />
       </list>
     </option>
@@ -290,7 +291,7 @@
     <configuration>C:\Users\think、\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161239" />
@@ -585,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-29-useMBG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -626,11 +620,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="269">
-            <caret line="236" column="3" lean-forward="true" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
+          <first_editor relative-caret-position="320">
+            <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
