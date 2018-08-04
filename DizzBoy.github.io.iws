@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="add a new blog">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +51,7 @@
         <counts>
           <entry key="html" value="52" />
           <entry key="js" value="19" />
-          <entry key="md" value="60" />
+          <entry key="md" value="68" />
           <entry key="txt" value="62" />
           <entry key="yml" value="28" />
         </counts>
@@ -62,7 +60,7 @@
         <counts>
           <entry key="HTML" value="52" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="60" />
+          <entry key="Markdown" value="68" />
           <entry key="PLAIN_TEXT" value="62" />
           <entry key="YAML" value="28" />
         </counts>
@@ -84,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="178" column="8" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="8" />
+              <first_editor relative-caret-position="269">
+                <caret line="236" column="3" lean-forward="true" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>标签</find>
       <find>tab</find>
       <find>collaps</find>
       <find>collapse</find>
@@ -138,6 +135,7 @@
       <find>imsun</find>
       <find>https://gh-oauth.imsun.net/?code=d351a99c7913fc5da12dcf890545248987467a02&amp;client_id=7cbb75422395ec6cb38c&amp;client_secret=aa818c605337d4329baa1a12dc0fe98991915a4a</find>
       <find>Tag</find>
+      <find>u&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -292,7 +290,7 @@
     <configuration>C:\Users\think、\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161239" />
@@ -631,8 +629,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="178" column="8" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="8" />
+          <first_editor relative-caret-position="269">
+            <caret line="236" column="3" lean-forward="true" selection-start-line="236" selection-start-column="3" selection-end-line="236" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
