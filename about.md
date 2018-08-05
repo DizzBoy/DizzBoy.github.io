@@ -18,7 +18,7 @@ description: "\"我\"的成长日记"
 <li class="listing-item">
 <i class="fa-li fa fa-circle"></i>
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">2018-8-5</time>&nbsp;&nbsp;&nbsp;&nbsp;
-优化文章页面的阅读体验.
+&nbsp;&nbsp;优化文章页面的阅读体验.
 </li>
 </ul>
 
