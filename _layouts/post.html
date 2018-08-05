@@ -4,14 +4,15 @@ layout: default
 
 <!-- Post Header -->
 <style type="text/css">
-    header.intro-header{
+    header.intro-header {
         background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
+
     code, kbd, pre, samp {
-        font-family: Menlo,Moaco,Consolas,"Microsoft YaHei",monospace;
+        font-family: Menlo, Moaco, Consolas, "Microsoft YaHei", monospace;
     }
 </style>
-<header class="intro-header" >
+<header class="intro-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -33,9 +34,8 @@ layout: default
 </header>
 
 
-<script src="/js/particle.js"></script>
 <style>
-    #Mycanvas{
+    #Mycanvas {
         position: fixed;
         width: 100%;
         height: 100%;
@@ -50,7 +50,8 @@ layout: default
     <canvas id="Mycanvas"></canvas>
     <div class="container">
         <div class="row">
-            <div style="background-color:whitesmoke;" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+            <div style="background-color:whitesmoke;"
+                 class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
                 {{ content }}
 
@@ -59,12 +60,15 @@ layout: default
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+                           data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous
+                            Post</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                           data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
@@ -72,31 +76,32 @@ layout: default
         </div>
         <!--Gitment-->
         <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="/css/default.css">
-<script src="/js/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    id: '{{page.title | replace: "'", "" | replace: '"', ''}}',
-    owner: 'DizzBoy',
-    repo: 'gitment',
-    oauth: {
-        client_id: '7cbb75422395ec6cb38c',
-        client_secret: 'aa818c605337d4329baa1a12dc0fe98991915a4a'
-    }
-});
-gitment.render('gitmentContainer');
-</script>
+        <link rel="stylesheet" href="/css/default.css">
+        <script src="/js/gitment.browser.js"></script>
+        <script src="/js/particle.js"></script>
+        <script>
+            var gitment = new Gitment({
+                id: '{{page.title | replace: "'", "" | replace: '"', ''}}',
+                owner: 'DizzBoy',
+                repo: 'gitment',
+                oauth: {
+                    client_id: '7cbb75422395ec6cb38c',
+                    client_secret: 'aa818c605337d4329baa1a12dc0fe98991915a4a'
+                }
+            });
+            gitment.render('gitmentContainer');
+        </script>
     </div>
 </article>
 
 
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function () {
         anchors.options = {
-          visible: 'always',
-          placement: 'right',
-          icon: ''
+            visible: 'always',
+            placement: 'right',
+            icon: ''
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
@@ -104,11 +109,11 @@ gitment.render('gitmentContainer');
 <style>
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
-        .anchorjs-link{
+        .anchorjs-link {
             position: absolute;
             left: -0.75em;
             font-size: 1.1em;
-            margin-top : -0.1em;
+            margin-top: -0.1em;
         }
     }
 </style>

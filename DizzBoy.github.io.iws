@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="add a new blog">
+    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="Add a particle canvas background to the post page">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
     </list>
@@ -31,10 +31,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="6" />
           <entry key="html" value="22" />
           <entry key="iws" value="1" />
-          <entry key="js" value="5" />
+          <entry key="js" value="6" />
           <entry key="md" value="6" />
           <entry key="ts" value="5" />
           <entry key="yml" value="3" />
@@ -42,10 +42,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="6" />
           <entry key="HTML" value="22" />
           <entry key="IDEA_WORKSPACE" value="1" />
-          <entry key="JavaScript" value="5" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="6" />
           <entry key="TypeScript" value="5" />
           <entry key="YAML" value="3" />
@@ -53,19 +53,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="72" />
+          <entry key="html" value="196" />
           <entry key="js" value="19" />
           <entry key="md" value="116" />
-          <entry key="txt" value="62" />
+          <entry key="txt" value="123" />
           <entry key="yml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="72" />
+          <entry key="HTML" value="196" />
           <entry key="JavaScript" value="19" />
           <entry key="Markdown" value="116" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="PLAIN_TEXT" value="123" />
           <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="312">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
               </folding>
@@ -99,9 +99,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>collaps</find>
       <find>collapse</find>
       <find>boots</find>
       <find>boo</find>
@@ -131,6 +137,7 @@
       <find>Tag</find>
       <find>u&gt;</find>
       <find>header.intro-header</find>
+      <find>col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,6 +169,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-07-29-useMBG.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-04-gitOnLinux.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/js/partial.js" />
+        <option value="$PROJECT_DIR$/js/particle.js" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
@@ -288,7 +297,7 @@
     <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33200952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22637014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -351,10 +360,10 @@
     <MESSAGE value="``" />
     <MESSAGE value="update 404 page&#10;add local gitment js file" />
     <MESSAGE value="add a new blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a new blog" />
+    <MESSAGE value="Add a particle canvas background to the post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a particle canvas background to the post page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/img/orange.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -490,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/backtop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DizzBoy.github.io.iws">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -627,10 +629,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/particle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/backtop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="312">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
           </folding>
