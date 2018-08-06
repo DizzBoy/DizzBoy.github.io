@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="Add a particle canvas background to the post page">
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="optimize reading experience">
+      <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
     <session id="1249487256">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -34,7 +34,7 @@
           <entry key="html" value="22" />
           <entry key="iws" value="1" />
           <entry key="js" value="6" />
-          <entry key="md" value="7" />
+          <entry key="md" value="8" />
           <entry key="ts" value="5" />
           <entry key="yml" value="3" />
         </counts>
@@ -45,7 +45,7 @@
           <entry key="HTML" value="22" />
           <entry key="IDEA_WORKSPACE" value="1" />
           <entry key="JavaScript" value="6" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="8" />
           <entry key="TypeScript" value="5" />
           <entry key="YAML" value="3" />
         </counts>
@@ -54,8 +54,8 @@
         <counts>
           <entry key="html" value="196" />
           <entry key="js" value="19" />
-          <entry key="md" value="144" />
-          <entry key="txt" value="123" />
+          <entry key="md" value="162" />
+          <entry key="txt" value="176" />
           <entry key="yml" value="28" />
         </counts>
       </usages-collector>
@@ -63,8 +63,8 @@
         <counts>
           <entry key="HTML" value="196" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="144" />
-          <entry key="PLAIN_TEXT" value="123" />
+          <entry key="Markdown" value="162" />
+          <entry key="PLAIN_TEXT" value="176" />
           <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
@@ -88,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+              <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
               </folding>
@@ -207,8 +207,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="644" />
-    <option name="width" value="666" />
+    <option name="x" value="409" />
+    <option name="width" value="901" />
     <option name="height" value="775" />
   </component>
   <component name="ProjectView">
@@ -305,7 +305,7 @@
     <configuration>C:\Users\think、\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22637014" />
@@ -372,7 +372,8 @@
     <MESSAGE value="update 404 page&#10;add local gitment js file" />
     <MESSAGE value="add a new blog" />
     <MESSAGE value="Add a particle canvas background to the post page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a particle canvas background to the post page" />
+    <MESSAGE value="optimize reading experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize reading experience" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css" />
@@ -647,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
           </folding>
