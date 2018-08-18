@@ -11,7 +11,7 @@ description: 文章金句。
 
 # 前言
 今天在做题时，碰到了一道选择题，就是关于Integer.valueOf()的知识，题目如下：
-```
+~~~
 Integer i01 = 59;
 int i02 = 59;
 Integer i03 = Integer.valueOf(59);
@@ -26,7 +26,7 @@ B.System.out.println(i01== i03);
 C.System.out.println(i03== i04);
 
 D.System.out.println(i02== i04);
-```
+~~~
 
 大家可以先想一想答案,暂时先不公布,我们慢慢开始分析~
 
@@ -44,7 +44,7 @@ D.System.out.println(i02== i04);
   解析：当靠想象无法解决问题的时候，这是就要看源代码了！！很重要！我们可以在Integer类中找到这样的嵌套内部类IntegerCache：
 
 
-```
+~~~
  private static class IntegerCache {
         static final int low = -128;
         static final int high;
@@ -71,7 +71,7 @@ D.System.out.println(i02== i04);
 
         private IntegerCache() {}
     }
-```
+~~~
 
  这个类就是在Integer类装入内存中时，会执行其内部类中静态代码块进行其初始化工作，做的主要工作就是把一字节的整型数据（-128-127）装包成Integer类并把其对应的引用存入到cache数组中，这样在方法区中开辟空间存放这些静态Integer变量，同时静态cache数组也存放在这里，供线程享用，这也称**静态缓存**。
 
@@ -90,14 +90,14 @@ D.System.out.println(i02== i04);
 
 来看一下源代码：
   
-```
+~~~
  public static Integer valueOf(int i) {
         assert IntegerCache.high >= 127;
         if (i >= IntegerCache.low && i <= IntegerCache.high)
             return IntegerCache.cache[i + (-IntegerCache.low)];
         return new Integer(i);
     }
-```
+~~~
 
 很明显跟之前的思想一致，若在-128到127范围，直接返回该对象的引用，否则在堆中重新new 一个。
 
@@ -117,9 +117,9 @@ D.System.out.println(i02== i04);
 不得不服，Java这的设计真是巧妙，以后应多注意看看源码，其思想使我受益匪浅。
 
 出一道题：
-```
+~~~
 System.out.println(Integer.valueOf("127") == Integer.valueOf("127"));
 System.out.println(Integer.valueOf("128") == Integer.valueOf("128"));
 System.out.println(Integer.parseInt("128") == Integer.valueOf("128"));
-```
+~~~
 输出结果如何？欢迎讨论~

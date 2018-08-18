@@ -38,7 +38,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 *如果只是自己在使用Git服务器,那么这一步不是必须的,但为了更好地管理版本资源,还是建议专门建立一个git操作员。*
 
 在服务器中输入以下命令，建立名为git的用户：
-```
+~~~
 $ sudo su                  
 $ adduser git                  
 Adding user 'git' ...                  
@@ -47,7 +47,7 @@ Adding new user 'git' (1001) with group 'git' ...
 Creating home directory '/home/git' ...                  
 Copying files from '/etc/skel' ...                  
 Enter new UNIX password:
-```
+~~~
 
 这里额外要说一下坑过我的一个小细节 T_T~
 >Linux下创建用户时会用到useradd和adduser这两个命令，他们的区别如下：  
@@ -61,7 +61,7 @@ Enter new UNIX password:
 
 #### 2.1 配置服务端的SSH访问
 Linux终端:
-```
+~~~
 # 1.切换到git账号
 $ su git
 # 2.进入 git账户的主目录
@@ -77,7 +77,7 @@ $ touch authorized_keys
 # 5. 设置权限，此步骤不能省略，而且权限值也不要改，不然会报错。
 $ chmod 700 /home/git/.ssh/
 $ chmod 600 /home/git/.ssh/authorized_keys
-```
+~~~
 
 #### 2.2 配置客户端的SSH访问
 **第一步：先检查客户端是否已经拥有ssh公钥和私钥：进入用户的主目录。**  
@@ -86,20 +86,20 @@ Linux系统：```/home/用户名```
 Mac系统：```/Users/用户名```  
 
 然后查看是否有```.ssh```文件夹，此文件夹下是否有如下几个文件。
-```
+~~~
 # 用户主目录的.ssh文件夹下
 .ssh
 ├── id_rsa      
 └── id_rsa.pub  # 我们要用的公钥
-```
+~~~
 
 如果没有，那么用ssh-keygen创建ssh的公钥。  
 客户端终端：
-```
+~~~
 $ ssh-keygen -t rsa
 
 # 接下来，三个回车默认即可。
-```
+~~~
 创建私钥成功后，在查看用户目录是否有意加有了公钥文件id_rsa.pub
 
 **第二步： 拷贝公钥到服务器**
@@ -111,7 +111,7 @@ $ ssh-keygen -t rsa
 #### 2.3 服务器端添加客户端的SSH公钥
 
 切换到服务器端，把刚才上传的id_rsa.pub文件的内容添加到authorized_keys中，就可以允许客户端ssh访问了。
-```
+~~~
 # 切换到git账户
 $ su git
 $ cd /home/git/.ssh
@@ -128,14 +128,14 @@ $ cat laoma.pub >> authorized_keys
 # >> 是在文件后面追加的意思。
 # 如果用其他编辑器，每个ssh的pub要单独一行。
 # 建议用cat命令方便简单。
-```
+~~~
 到此为止，您配置的客户端应该可以ssh的方式直接用git账号登录服务器。
-```
+~~~
 # 在客户端用ssh测试连接远程服务器
 $ ssh git@服务端IP   
 
 # 第一次连接有警告，输入yes继续即可。如果可以连接上，那么恭喜你的ssh配置已经可以了。
-```
+~~~
 
 ### <u>3. 构建仓库</u> 
 使用git构建仓库，实际上就是在指定代码提交与拉取等操作的目的地。 
@@ -147,7 +147,7 @@ $ ssh git@服务端IP
 
 Linux终端:
 
-```
+~~~
 # 切换到git账号
 $ su git
 # 进入git账号的用户主目录。
@@ -161,7 +161,7 @@ $ mkdir test.git  && cd test.git
 $ git init --bare
 # 输出如下内容，表示成功
 Initialized empty Git repository in /home/git/test.git/
-```
+~~~
 
 >```git init --bare``` 是在当前目录创建一个裸仓库，也就是说没有工作区的文件，直接把git仓库隐藏的文件放在当前目录下，此目录仅用于存储仓库的历史版本等数据。不能储存项目代码。  
   如果使用了```git init```初始化，则远程仓库的目录下，也包含work tree，当本地仓库向远程仓库push时，如果远程仓库正在push的分支上（如果当时不在push的分支，就没有问题）, 那么push后的结果不会反应在work tree上,  
@@ -173,7 +173,7 @@ Initialized empty Git repository in /home/git/test.git/
 本地仓库就是员工，员工可以向上司索要现有的项目版本，也可以将自己写好的项目版本上交给他。
 
 客户端终端：
-```
+~~~
 $ mkdir demos  #创建一个空的仓库文件夹
 $ cd demos     
 $ git init    #初始化仓库
@@ -190,7 +190,7 @@ $ git remote add origin git@服务端IP:test.git
 
 # 把当前仓库push到远程仓库。
 $ git push -u origin master
-```
+~~~
 
 >Git中的术语：   
 Branch：分支，仓库中可以有不同的项目版本，默认版本称作master。  
@@ -227,7 +227,7 @@ git裸仓库钩子在hooks/中
 第一种方式实现：（需在web文件夹```git init```,最好先手动执行一次```pull```）
 
 在上述hooks目录中，创建post-receive文件，内容如下
-```
+~~~
 #!/bin/sh
 DEPLOY_PATH=/home/git/test.git #远程仓库目录
 
@@ -236,9 +236,9 @@ cd $DEPLOY_PATH
 git reset --hard  #强制刷新
 git pull ~/test.git master #本地拉取直接写路径
 chown git:git -R $DEPLOY_PATH
-```
+~~~
 第二种方式实现：(压缩包形式，无需创建仓库)
-```
+~~~
 #!/bin/sh
 DEPLOY_PATH=/home/git/test.git
 
@@ -249,7 +249,7 @@ cd $DEPLOY_PATH
 unzip -o file.zip #解压覆盖  
 rm -rf file.zip #删除  
 chown git:git -R $DEPLOY_PATH  
-```
+~~~
 注意：要给钩子脚本执行的权限
 
 ---
@@ -259,13 +259,13 @@ chown git:git -R $DEPLOY_PATH
 
 第一步：
 给 /home/git 下面创建git-shell-commands目录，并把目录的拥有者设置为git账户。可以直接用git账号登录服务器终端操作。
-```
+~~~
 $ su git
 $ mkdir /home/git/git-shell-commands
 此文件夹是git-shell用到的目录，需要我们手动创建。
-```
+~~~
 第二步：修改/etc/passwd文件，修改
-```
+~~~
 $ vim /etc/passwd
 
 # 可以通过 vim的正则搜索快速定位到这行，  命名模式下  :/git:x
@@ -279,7 +279,7 @@ git:x:1000:1000::/home/git:/bin/git-shell
 # 最好不要直接改，可以先复制一行，然后注释掉一行，修改一行，保留原始的，这就是经验！！！
 # vim快捷键： 命令模式下：yy复制行， p 粘贴  0光标到行首 $到行尾 x删除一个字符  i进入插入模式 
 # 修改完后退出保存：  esc进入命令模式， 输入：:wq!   保存退出。
-```
+~~~
 好了，此时我们就不用担心客户端通过shell登录，只允许使用git-shell进行管理git的仓库。
 
 如果有其他小伙伴要连接git服务器，仅需要把他的公钥也添加到authorized_keys即可。
