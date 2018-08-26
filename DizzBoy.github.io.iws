@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="new post">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-26-launchy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-26-launchy.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +61,7 @@
         <counts>
           <entry key="html" value="204" />
           <entry key="js" value="19" />
-          <entry key="md" value="457" />
+          <entry key="md" value="485" />
           <entry key="txt" value="383" />
           <entry key="yml" value="28" />
         </counts>
@@ -69,7 +70,7 @@
         <counts>
           <entry key="HTML" value="204" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="457" />
+          <entry key="Markdown" value="485" />
           <entry key="PLAIN_TEXT" value="383" />
           <entry key="YAML" value="28" />
         </counts>
@@ -91,8 +92,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-26-launchy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <first_editor relative-caret-position="148">
+                <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
               </first_editor>
               <second_editor />
             </state>
@@ -308,7 +309,7 @@
     <configuration>C:\Users\think、\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1319" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
@@ -689,8 +690,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-26-launchy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <first_editor relative-caret-position="148">
+            <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
           </first_editor>
           <second_editor />
         </state>
