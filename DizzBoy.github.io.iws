@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="Add 2048">
+    <list default="true" id="11c204eb-f8d9-430f-9b4f-fd4e00651c16" name="Default" comment="new post">
       <change beforePath="$PROJECT_DIR$/DizzBoy.github.io.iws" beforeDir="false" afterPath="$PROJECT_DIR$/DizzBoy.github.io.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,13 +24,14 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,7 +40,7 @@
           <entry key="html" value="23" />
           <entry key="iws" value="1" />
           <entry key="js" value="8" />
-          <entry key="md" value="15" />
+          <entry key="md" value="16" />
           <entry key="ts" value="5" />
           <entry key="yml" value="3" />
         </counts>
@@ -50,7 +51,7 @@
           <entry key="HTML" value="23" />
           <entry key="IDEA_WORKSPACE" value="1" />
           <entry key="JavaScript" value="8" />
-          <entry key="Markdown" value="15" />
+          <entry key="Markdown" value="16" />
           <entry key="TypeScript" value="5" />
           <entry key="YAML" value="3" />
         </counts>
@@ -59,8 +60,8 @@
         <counts>
           <entry key="html" value="204" />
           <entry key="js" value="19" />
-          <entry key="md" value="435" />
-          <entry key="txt" value="371" />
+          <entry key="md" value="456" />
+          <entry key="txt" value="383" />
           <entry key="yml" value="28" />
         </counts>
       </usages-collector>
@@ -68,20 +69,32 @@
         <counts>
           <entry key="HTML" value="204" />
           <entry key="JavaScript" value="19" />
-          <entry key="Markdown" value="435" />
-          <entry key="PLAIN_TEXT" value="371" />
+          <entry key="Markdown" value="456" />
+          <entry key="PLAIN_TEXT" value="383" />
           <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="24" />
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-26-launchy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="322">
+                <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -164,6 +177,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-07-29-usembg.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-04-integervalueof.md" />
         <option value="$PROJECT_DIR$/milestone.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-26-launchy.md" />
       </list>
     </option>
   </component>
@@ -205,6 +219,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,7 +256,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,8 +267,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\game" />
       <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\_posts" />
+      <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\game" />
       <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\js" />
       <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\css" />
       <recent name="D:\PROGRAM\WebBlog\DizzBoy.github.io\img" />
@@ -297,7 +311,7 @@
     <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16441621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -310,7 +324,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960285" weight="0.32872504" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49960285" weight="0.3323077" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,10 +381,10 @@
     <MESSAGE value="add new Blog" />
     <MESSAGE value="change all code blocks into highlight-supported" />
     <MESSAGE value="Add 2048" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 2048" />
+    <MESSAGE value="new post" />
+    <option name="LAST_COMMIT_MESSAGE" value="new post" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2015-03-02-how-to-write.md.template" />
     <entry file="file://$PROJECT_DIR$/img/facebook.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -638,7 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-04-integervalueof.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-18-integervalueof.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="375">
@@ -668,7 +682,17 @@
     <entry file="file://$PROJECT_DIR$/game/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="24" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-26-launchy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
